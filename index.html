@@ -166,11 +166,11 @@ footer{display:block}
 <p>TikTok: <a href="https://www.tiktok.com/@apexexecutivepart" target="_blank">@apexexecutivepart</a></p>
 </div>
 
-<form onsubmit="sendEmail(event)">
-<input id="name" required placeholder="Your name">
-<input id="email" required type="email" placeholder="Your email">
-<input id="business" placeholder="Business / organization">
-<textarea id="message" required rows="6" placeholder="How can we help?"></textarea>
+  <form action="https://formspree.io/f/xbgjrala" method="POST">
+<input id="name" name="name" required placeholder="Your name">
+<input id="email" name="email" required type="email" placeholder="Your email">
+<input id="business" name="business" placeholder="Business / organization">
+<textarea id="message" name="message" required rows="6" placeholder="How can we help?"></textarea>
 <button class="btn primary" type="submit">Send Inquiry</button>
 </form>
 </section>
